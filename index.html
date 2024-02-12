@@ -1,0 +1,123 @@
+<html>
+  <head>
+      <title> number Comparison </title>
+  
+  <style>
+     div { 
+      color: rgb(122, 64, 177);
+     }
+     #man{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      margin: auto;
+      color: moccasin;
+     }
+     .box{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    height: 150px;
+    background-color: aqua;
+    margin: 4px;
+}
+  </style>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
+  <body>
+  
+  
+  
+  <div style=" color:rgb(43, 2, 43)">
+    This is before text
+    <div style=" color:rgb(148, 6, 148)">
+      This is inner text
+    </div>
+    This is after text
+  </div>
+
+
+  <div id="area54">
+    <table>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <rd>D</rd>
+      </tr>
+    </table>
+  </div>
+  <table>
+    <tr>
+      <td>A</td>
+      <td><table>
+        <tr><td><img src=""></td></tr>
+        <tr><td></td></tr>
+      </table></td>
+    </tr>
+  </table>
+  <table border="3" cellpadding = "4">
+    <tr>
+      <th colspan="2" rowspan="6"><img src="C:\Users\rakes\OneDrive\Pictures\Screenshots\Screenshot (58).png" height="100px"c width="75px"></th>
+    </tr>
+    <tr>
+      <td><img src="C:\Users\rakes\OneDrive\Pictures\Screenshots\Screenshot (58).png" height="50px"c width="25px"></td>
+    </tr>
+    <tr>
+      <td><img src="C:\Users\rakes\OneDrive\Pictures\Screenshots\Screenshot (58).png" height="50px"c width="25px"></td>
+    </tr>
+  </table>
+  <h1 style="color: red;">A bunch of words</h1>
+  <h2 id="man">Hi mad</h2>
+  <h2 id="man">how is your day going</h2>
+  <h3 id="man">how is your class.</h3>
+  <form id="numberform">
+      <input type="number" id="number1" placeholder="Enter first number">
+      <input type="number" id="number2" placeholder="Enter first number">
+      <button id="submit_button" style="color: rgb(74, 164, 74)" type="submit"> compare </button>
+  </form>
+  <div id="result"></div>
+  <div id="area54">hi</div>
+  <script>
+    //var message= "Hi";
+    //document.getElementById('result').innerText = message;
+    document.addEventListener('DOMContentLoaded', function() {
+     // var message= "Hello" ;
+     //document.getElementById('result').innerText = message;
+         document.getElementById('numberform').addEventListener('submit', function(event) {
+           event.preventDefault(); //learn this
+         var number1= document.getElementById('number1').value;
+         var number2= document.getElementById('number2').value;
+         if(number1>number2) 
+         { 
+          var message= "num1>num2";
+          //document.getElementById('result').innerText = message;
+        } 
+        if(number1<number2) 
+        {var message= "num1<num2";} 
+        else
+        { var message= "num1=num2";}
+         //var message= "Submit was clicked" + number1;
+         document.getElementById('result').innerText = message;
+         document.getElementById('submit_button').hidden=true;
+        // document.getElementById('area54').innerHTML=  //injection
+    })
+       //var message= "hello!.....";
+      //document.getElementById('result').innerText = message; 
+  }) 
+  </script> 
+  <div class="col-12 col-md-6 col-xl-4">
+    <div class="box">
+        <div class="row">
+            <div class="col-12">
+                <div id="matter">
+                    <a href="C:\LIC PROJECT\Mini-Project(LIC Website)\Policies\Jeevan Anand(915).html" class="anchor" target="-blank"><h3>Hello madem</h3></a>
+                </div>
+                <div id="matter">
+                    <h3>(915)</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
